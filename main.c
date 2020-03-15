@@ -82,7 +82,7 @@ static void *producer(void * param) {
         }
 
         if (insert_item(item) == -1) {
-            fprintf(stderr, "error condition");
+            fprintf(stderr, "Error condition\n");
         }
     }
 }
@@ -98,7 +98,7 @@ static void *consumer(void * param) {
             break;
         }
         if (remove_item(&item) == -1) {
-            fprintf(stderr, "error condition");
+            fprintf(stderr, "Error condition\n");
         }
     }
 }
