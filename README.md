@@ -17,7 +17,7 @@ Project 3
 ## How to run:
 1. Compile the program (if haven't already): ```make all```  
 2. execute the program: ```./p3 [how long to run for] [# of producer threads] [# of consumer threads]```  
-Or run ```make test`` for a quick test run  
+Or run ```make test``` for a quick test run  
 **Note: If you want to abort the program, use CTRL+c**
   
 
